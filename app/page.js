@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <>
     <div className='bg-indigo-900 m-0 p-5'>
-    <div className='px-4  pt-5 pb-4 rounded-lg bg-sky-100 m-auto w-1/3 relative border border-slate-100 shadow-[0_2px_4px_rgba(57,62,86,0.5)] '>
+    <div className='px-4  pt-5 pb-4 rounded-lg bg-sky-200 m-auto w-1/3 relative border border-slate-100 shadow-[0_2px_4px_rgba(57,62,86,0.5)] '>
       <div className="flex flex-col min-h-full justify-center">
-        <div className='m-auto'>
-          <img src="https://www.osmoze.in/images/Osmoze.svg" alt="" />
+        <div className='m-auto '>
+          <img src="https://www.osmoze.in/images/Osmoze.svg" className='w-[150px]' alt="" />
         </div>
         <div className="mx-auto w-full max-w-md">
-          <h2 className='mt-4 text-center text-black text-4xl font-[500]'>
+          <h2 className='mt-4 text-center text-black text-4xl font-[500] font-'>
             OSMOZE'<span className='text-blue-800'>24</span>
           </h2>
         </div>
@@ -22,7 +22,7 @@ export default function Home() {
               FIRST NAME
             </label>
             <div className="mt-1">
-              <input type="text" name="name" id="name" placeholder="Name" required className='block appearance-none w-full rounded-md text-black bg-neutral-100 border border-stone-200 px-3 py-2 focus:outline-none focus:ring-0 focus:border-purple-200 focus:drop-shadow-input/18 text-sm'/>
+              <input type="text" name="name" id="name" placeholder="First Name" required className='block appearance-none w-full rounded-md text-black bg-neutral-100 border border-stone-200 px-3 py-2 focus:outline-none focus:ring-0 focus:border-purple-200 focus:drop-shadow-input/18 text-sm'/>
             </div>
             
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
               LAST NAME
             </label>
             <div className="mt-1">
-              <input type="text" name="name" id="name" placeholder="Name" required className='block appearance-none w-full rounded-md text-black bg-neutral-100 border border-stone-200 px-3 py-2 focus:outline-none focus:ring-0 focus:border-purple-200 focus:drop-shadow-input/18 text-sm'/>
+              <input type="text" name="name" id="name" placeholder="Second Name" required className='block appearance-none w-full rounded-md text-black bg-neutral-100 border border-stone-200 px-3 py-2 focus:outline-none focus:ring-0 focus:border-purple-200 focus:drop-shadow-input/18 text-sm'/>
             </div>
             
           </div>
